@@ -30,9 +30,21 @@ div.container.up {
     text-align: center;
 }
 
+div.user-ticket {
+    display: flex;
+}
+
 div.list-input > ul > li {
-    display: inline-block;
     margin: 0 3rem;
+}
+
+div.list-input > ul > li,
+div.ticket > ul > li {
+    display: inline-block;
+}
+
+div.ticket > ul > li {
+    margin: 0 1.5rem;
 }
 
 div.list-input > ul > li > label {
@@ -63,3 +75,37 @@ button#generate-btn {
     border: 1px solid rgb(184, 184, 5);
 }
 
+span#subtitle {
+    font-weight: bold;
+}
+div.ticket {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+div.container.down {
+    padding: 1rem;
+}
+
+div.bg-user {
+    background-color: gray;
+}
+
+div.bg-user {
+    padding: 1rem 1.5rem 3.5rem;
+}
+
+div.ticket > ul > li > div#subtitle-3 {
+    padding: 1rem 0 1.8rem;
+}
+
+div.bg-user > div#subtitle-2,
+div.ticket > ul > li > div#subtitle-3,
+div.bg-user > div.username {
+    font-weight: bold;
+}
+
+div.ticket > ul {
+    list-style: none;
+}
