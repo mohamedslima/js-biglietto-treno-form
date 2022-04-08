@@ -1,0 +1,65 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTENT */
+
+body {
+    background-color: #b91450;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1.title {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+div.container {
+    background-color: white;
+    width: 70%;
+    margin: 2rem 10rem;
+    border-radius: 10px;
+}
+
+div.container.up {
+    text-align: center;
+}
+
+div.list-input > ul > li {
+    display: inline-block;
+    margin: 0 3rem;
+}
+
+div.list-input > ul > li > label {
+    display: block;
+    padding-bottom: .8rem;
+    color: #b91450;
+    padding-top: 1rem;
+}
+
+
+div.list-input > ul > li > input,
+div.list-input > ul > li > select {
+    border: 1.5px solid #b91450;
+}
+
+div.list-btn > button {
+    color: #b91450;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgb(192, 191, 191);
+    padding: .2rem .5rem;
+    margin: 2rem .5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button#generate-btn {
+    border: 1px solid rgb(184, 184, 5);
+}
+
