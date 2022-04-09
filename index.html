@@ -10,84 +10,86 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1 class="title">
-        CALCOLA IL PREZZO DEL TUO BIGLIETTO
-    </h1>
-    <div class="container up">
-        <div class="list-input">
-            <ul>
-                <li>
-                    <label class="userdata">
-                        Nome Cognome
-                    </label>
-                    <input type="text">
-                </li>
-                <li>
-                    <label class="userdata">
-                        Km da percorrere
-                    </label>
-                    <input type="text">
-                </li>
-                <li>
-                    <label for="user-color">Fascia d'età</label>
-                    <select name="user-color" id="user-color">
-                        <option value="underage">Minorenne (0-17)</option>
-                        <option value="adult">Maggiorenne (18-64)</option>
-                        <option value="over65">Over 65 </option>
-                    </select>
-                </li>
-            </ul>
-        </div>
-        <div class="list-btn">
-            <button id="generate-btn">
-                Genera
-            </button>
-            <button id="cancel-btn">
-                Annulla
-            </button>
-        </div>
-    </div>
-    <h1 class="title">
-        IL TUO BIGLIETTO
-    </h1>
-    <div class="container down">
-        <span id="subtitle">
-            DETTAGLIO PASSEGGERI
-        </span>
-        <div class="user-ticket">
-            <div class="bg-user">
-                <div id="subtitle-2">
-                    NOME PASSEGGERO
-                </div>
-                <div class="username">
-                    ss
-                </div>
-            </div>
-            <div class="ticket">
+    <div class="center-c">
+        <h1 class="title">
+            CALCOLA IL PREZZO DEL TUO BIGLIETTO
+        </h1>
+        <div class="container up">
+            <div class="list-input">
                 <ul>
                     <li>
-                        <div id="subtitle-3">Offerta</div>
-                        <div>Biglietto Standard</div>
+                        <label class="userdata">
+                            Nome Cognome
+                        </label>
+                        <input type="text" name="userdata" id="userdata">
                     </li>
                     <li>
-                        <div id="subtitle-3">Carrozza</div>
-                        <div id="number-carriage">
-                            ss
-                        </div>
+                        <label class="distance-in">
+                            Km da percorrere
+                        </label>
+                        <input type="text" name="distance-in" id="distance-in">
                     </li>
                     <li>
-                        <div id="subtitle-3">Codice CP</div>
-                        <div id="number-cp">
-                            ss
-                        </div>
-                    </li>
-                    <li>
-                        <div id="subtitle-3">Costo biglietto</div>
-                        <div id="price-ticket">
-                            ss
-                        </div>
+                        <label for="user-age">Fascia d'età</label>
+                        <select name="user-ager" id="user-age">
+                            <option value="underage">Minorenne</option>
+                            <option value="adult">Maggiorenne</option>
+                            <option value="over65">Over 65</option>
+                        </select>
                     </li>
                 </ul>
+            </div>
+            <div class="list-btn">
+                <button id="generate-btn">
+                    Genera
+                </button>
+                <button id="cancel-btn">
+                    Annulla
+                </button>
+            </div>
+        </div>
+        <h1 class="title">
+            IL TUO BIGLIETTO
+        </h1>
+        <div class="container down">
+            <span id="subtitle">
+                DETTAGLIO PASSEGGERI
+            </span>
+            <div class="user-ticket">
+                <div class="bg-user">
+                    <div id="subtitle-2">
+                        NOME PASSEGGERO
+                    </div>
+                    <div class="username">
+                        ss
+                    </div>
+                </div>
+                <div class="ticket">
+                    <ul>
+                        <li>
+                            <div id="subtitle-3">Offerta</div>
+                            <div>Biglietto Standard</div>
+                        </li>
+                        <li>
+                            <div id="subtitle-3">Carrozza</div>
+                            <div id="number-carriage">
+                                ss
+                            </div>
+                        </li>
+                        <li>
+                            <div id="subtitle-3">Codice CP</div>
+                            <div id="number-cp">
+                                ss
+                            </div>
+                        </li>
+                        <li>
+                            <div id="subtitle-3">Costo biglietto</div>
+                            <div id="price-ticket">
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
